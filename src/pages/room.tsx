@@ -14,7 +14,7 @@ export function Room() {
             navigator.share({url})
         }else{
             navigator.clipboard.writeText(url)
-            toast.info('Room URL added to clipboard')
+            toast.info('LINK na área de transferência')
         }
     }
 
